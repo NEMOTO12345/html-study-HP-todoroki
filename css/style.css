@@ -95,6 +95,12 @@ header nav ul li a:hover{
 /* article s1 */
 
 /* article s2 */
+.catch2{
+    text-align: center;
+    color: #95af5f;
+    border-bottom: 1px dotted #95af5f;
+    font-size: 200%;
+}
 .music{
     display: flex;
     justify-content: center;
@@ -308,6 +314,4 @@ footer{
 
 
 
-/* 1.5,謎の右の開きを調査 */
-/* 2,緑ボタン全体をリンク適応 */
-/* 3,レスポンシブ対応 800px以下で */
+3,コンセプト変更()
