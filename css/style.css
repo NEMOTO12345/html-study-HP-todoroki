@@ -222,8 +222,51 @@ address{
 
 
 /* footer */
+/* レスポンシブ */
+@media (max-width:600px) {
+    body{
+        font-size: 80%;
+    }
+    header nav{
+        font-size: 50%;
+    }
 
-/* 1,運営企業とトップページの高さを一緒にする */
-1.5,謎の右の開きを調査
-2,緑ボタン全体をリンク適応
-3,レスポンシブ対応 800px以下で
+    header nav ul li a {
+        border: 0;
+        padding: 0;
+    }
+    .contact{
+        display: block;
+        margin: auto;
+    }
+
+    .phone{
+        padding: 10px 0;
+    }
+    .qa{
+        padding: 10px 0;
+    }
+    .infomation{
+        display: block;
+    }
+    .company address{
+        text-align: center;
+    }
+    .link{
+        float: none;
+    }
+    .link ul{
+        text-align: center;
+    }
+    .copy{
+        clear: both;
+    }
+    
+}
+/* レスポンシブ */
+
+
+
+/* 1.5,謎の右の開きを調査 */
+/* 2,緑ボタン全体をリンク適応 */
+/* 3,レスポンシブ対応 800px以下で */
