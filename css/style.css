@@ -31,8 +31,6 @@ a{
 .a a{
     color: #fff;
 }
-
-
 /* header */
 header{
     background-color:#00000060;
@@ -200,18 +198,23 @@ header nav ul li a:hover{
 .infomation{
     display: flex;
     justify-content: space-around;
+    
 }
 
 address{
-    font-size: 80%;
-    width: 220px;
 }
 
 .link{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    float: right;
 }
 
+.link ul{
+    column-count: 2;
+}
+
+.link p{
+    clear: both;
+}
 .copy{
     display: block;
     text-align: center;
@@ -220,8 +223,7 @@ address{
 
 /* footer */
 
-/* 1.ボタンを作る」
-２、肌色のマージンを整える
-３、テキストがうっすら表示されるように
-４、文字を全体的に丸く&フォント王サム
-５、全体的な調整 */
+/* 1,運営企業とトップページの高さを一緒にする */
+1.5,謎の右の開きを調査
+2,緑ボタン全体をリンク適応
+3,レスポンシブ対応 800px以下で
