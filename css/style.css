@@ -132,8 +132,8 @@ header nav ul li a:hover{
     text-align: center;
 }
 .s4 tbody{
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .s4 img{
@@ -234,6 +234,17 @@ address{
     header nav ul li a {
         border: 0;
         padding: 0;
+    }
+
+    .catch{
+        top: 100px;
+        left: 0;
+        font-size: 80%;
+    }
+
+    .s4 tbody {
+        display: grid;
+        grid-template-columns: 1fr;
     }
     .contact{
         display: block;
